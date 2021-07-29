@@ -1,0 +1,70 @@
+/* Custom Utilities */
+.custom-btn {
+  background-color: #e76f51;
+  color: #ffffff;
+}
+.custom-bg {
+  background-color: #264653;
+}
+.custom-fw {
+  font-weight: 500;
+}
+.custom-color {
+  color: #e76f51;
+}
+.custom-section-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+.custom-hr-line {
+  display: inline-block;
+  width: 58px;
+  height: 2px;
+  background-color: #e76f51;
+}
+.custom-grayscale {
+  filter: grayscale(100%);
+}
+.custom-card-body {
+  margin-top: 40px;
+}
+.custom-card-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.custom-card-text {
+  font-size: 16px;
+  line-height: 32px;
+  color: #6c6c6c;
+}
+.custom-card-img {
+  width: 149px;
+  height: 149px;
+}
+.custom-width {
+  width: 160px;
+}
+.ratings {
+  color: #e77c40;
+}
+.user {
+  font-weight: 600;
+  font-size: 14px;
+  color: #23a6f0;
+}
+
+.custom-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7e848c;
+}
+.custom-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
