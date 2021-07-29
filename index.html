@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Header starts here -->
-    <header style="height: 100vh;" class="custom-bg mb-5">
+    <header class="custom-bg mb-5">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
@@ -280,7 +280,7 @@
         </section>
 
         <!-- About us Section -->
-        <section class="custom-bg">
+        <section class="custom-bg mb-5">
             <div class="container text-center text-white p-5">
                 <h6 class="text-uppercase">About us</h6>
                 <h2 class="text-uppercase custom-section-title">We are dream builders</h2>
@@ -305,6 +305,32 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Contact form Section -->
+        <section class="container mb-5">
+			<form action="">
+				<div class="row p-4 shadow-lg rounded-3">
+					<div class="col-lg-5">
+						<h2 style="border-bottom: 2px solid #e76f51;" class="text-uppercase mb-4">Write us</h2>
+						<div class="form-floating mb-3">
+							<input type="text" class="form-control custom-input" id="floatingInput" placeholder="Name">
+							<label for="floatingInput">Name</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input type="email" class="form-control custom-input" id="floatingInput" placeholder="name@example.com">
+							<label for="floatingInput">Email address</label>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="form-floating">
+							<textarea style="height: 140px;" class="form-control" placeholder="Leave a message here" id="floatingTextarea"></textarea>
+							<label for="floatingTextarea">Message</label>
+						</div>
+						<button style="background-color: #e76f51;" class="btn mt-3 w-100">Send Message</button>
+					</div>
+				</div>
+			</form>
         </section>
     </main>
     <footer>

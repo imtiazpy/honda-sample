@@ -23,6 +23,12 @@
   height: 2px;
   background-color: #e76f51;
 }
+.custom-vr-line {
+  display: inline-block;
+  height: 100px;
+  width: 2px;
+  background-color: #e76f51;
+}
 .custom-grayscale {
   filter: grayscale(100%);
 }
@@ -67,4 +73,14 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #e76f51;
+}
+
+input.form-control:focus {
+  outline: none;
 }
