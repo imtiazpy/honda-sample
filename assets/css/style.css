@@ -81,6 +81,3 @@
   border-bottom: 2px solid #e76f51;
 }
 
-input.form-control:focus {
-  outline: none;
-}

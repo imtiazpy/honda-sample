@@ -30,7 +30,31 @@
                   <a class="nav-link active ms-4 custom-fw" href="#">Contact</a>
                 </div>
                 <a class="navbar-brand ms-5" href="#">
-                    <button class="btn custom-btn custom-fw">Login</button>
+                    <button class="btn custom-btn custom-fw" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Login</button>
+
+					<!-- offcanvas starts here -->
+					<div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+						<div class="offcanvas-header">
+						  <h5 id="offcanvasRightLabel">Do you have an ID?</h5>
+						  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<form class="row g-3">
+								<div class="col-lg-12">
+								  <label for="inputEmail4" class="form-label">Email</label>
+								  <input type="email" class="form-control" id="inputEmail4">
+								</div>
+								<div class="col-lg-12">
+								  <label for="inputPassword4" class="form-label">Password</label>
+								  <input type="password" class="form-control" id="inputPassword4">
+								</div>
+								  
+								<div class="col-lg-12">
+								  <button type="submit" class="btn btn-primary">Sign in</button>
+								</div>
+							  </form>
+						</div>
+					</div>
                 </a>
               </div>
             </div>
@@ -333,8 +357,48 @@
 			</form>
         </section>
     </main>
-    <footer>
-        
+	<!-- Footer starts here -->
+    <footer class="bg-dark text-white">
+        <div class="container p-5">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="d-flex flex-md-row flex-column justify-content-around">
+						<div>
+							<h6>Download Now</h6>
+							<h6>License</h6>
+						</div>
+						<div>
+							<h6>About</h6>
+							<h6>Features</h6>
+							<h6>Pricing</h6>
+						</div>
+						<div>
+							<h6>Careers</h6>
+							<h6>Help</h6>
+							<h6>Privacy Policy</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<h4>Get the App</h4>
+					<div class="mb-2 d-flex align-items-center justify-content-center w-75 border border-1 rounded-3">
+						<i class="fab fa-apple me-3 fs-1"></i>
+						<p>
+							<small>Download on the</small><br>
+							<span>App Store</span>
+						</p>
+					</div>
+					<div class="d-flex align-items-center justify-content-center w-75 border border-1 rounded-3">
+						<i class="fab fa-google-play me-3 fs-1"></i>
+						<p>
+							<small>Get it on</small><br>
+							<span>Google Play</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<p class="text-center mt-4">&copy; 2020 bike. All rights reserved</p>
+		</div>
     </footer>
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
